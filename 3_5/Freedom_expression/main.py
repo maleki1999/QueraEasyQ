@@ -1,0 +1,1 @@
+print("Bala Barare" if int(input())%2 == 0 else "Payin Barare" )
