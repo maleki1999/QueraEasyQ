@@ -1,0 +1,1 @@
+for item in input(): print(item+": "+item*int(item))
