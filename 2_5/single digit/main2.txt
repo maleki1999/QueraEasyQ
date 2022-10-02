@@ -1,0 +1,10 @@
+def sum_digit(number):
+    sum = 0
+    while(number!= 0):
+        sum += number % 10
+        number //= 10
+    if sum//10 == 0:
+        print(sum)
+    else:
+        sum_digit(sum)
+sum_digit(int(input()))
